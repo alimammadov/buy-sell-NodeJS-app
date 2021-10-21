@@ -1,8 +1,8 @@
 # Buy-Sell App
-
+Products can be added to and removed from the application by a seller. A seller can view all available products on the application. The following are methods that apply to both sellers and buyers:
 
 # Installation
-Repository ni request gondere bilerek yukleye biler ve ya fayllari .zip fayli kimi dowload ede bilersiz. App istifade etdiyi butun dependecileri yuklemek ucun:
+You can either issue a request to download the repository or choose to get the files in.zip format. Please click on the following link to obtain the dependencies required to execute the application.
 
 ```node
 npm install
@@ -10,9 +10,7 @@ npm install
 
 
 ## Usage
-
-Seller can to add product name, description and price to database. Also can to remove a product. 
-App has validation can`t add empty string or duplicate product. App allowed add or modify product another properties.
+A seller can add a product to the database by specifying its name, image and price. By default, the aformentioned product components (name, image and price)  are present. A seller may choose to include different sort of information regarding the product. There is validation in the Default parameters. Empty or clone products are refused by the application in order to prevent system abuse
 
 ## Methods for Sellers 
 ##### Add a product 
