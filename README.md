@@ -7,26 +7,25 @@ You can either issue a request to download the repository or choose to get the f
 ```node
 npm install
 ```
-
-
+____________
 ## Usage
-A seller can add a product to the database by specifying its name, image and price. By default, the aformentioned product components (name, image and price)  are present. A seller may choose to include different sort of information regarding the product. There is validation in the Default parameters. Empty or clone products are refused by the application in order to prevent system abuse
+A seller can add a product to the database by specifying its title, description and price. By default, the aformentioned product components (title, description and price)  are present. A seller may choose to include different sort of information regarding the product. There is validation in the Default parameters. Empty or clone products are refused by the application in order to prevent system abuse
 
-## Methods for Sellers 
-##### Add a product 
+## Seller Methods:
 
+##### - Add a product 
 ```bash
 node app.js add --title='Product title' --description="Product description" --price= 2 
 ```
-##### Remove a product
+##### - Remove a product
 ```bash
 node app.js add --title='Product title'  
 ```
 ____________
 
-## Methods For Buyer's
-Buyer`s has only one method can see all products.
-##### Show all products
+## Buyer Methods:
+- A buyer has the ability to view all products availabe on the application.
+##### - Show all products
 ```
 node app.js show
 ```
